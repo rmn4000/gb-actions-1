@@ -1,4 +1,4 @@
-name: Upload Python Package
+name: Check My Python App
 env:
   APPLICATION_NAME: "My Flask app"
   DEPLOY_VERSION: "ver-${{ github.sha }}"
@@ -14,6 +14,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
     - name: Hello msg
       run: echo "Hello from SRC"
 
