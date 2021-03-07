@@ -9,6 +9,11 @@ on:
     branches: [main, master]
 
 jobs:
+  test:
+    steps:
+    - name: test run ...
+      run: echo "test success!"
+
   deploy:
 
     runs-on: ubuntu-latest
