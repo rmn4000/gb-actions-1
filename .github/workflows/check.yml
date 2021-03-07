@@ -1,0 +1,18 @@
+name: Upload Python Package
+env:
+  APPLICATION_NAME: "My Flask app"
+  DEPLOY_VERSION: "ver-${{ github.sha }}"
+
+
+on:
+  push:
+    branches: [main, master]
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name:
+      run: echo "Hello from SRC"
