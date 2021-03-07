@@ -18,4 +18,4 @@ jobs:
       run: echo "Hello from SRC"
 
     - name: Show version
-      run: echo "Current version ${{ DEPLOY_VERSION }}"
+      run: echo "Current version ${{ env.DEPLOY_VERSION }}"
