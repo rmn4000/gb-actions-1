@@ -14,5 +14,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name:
+    - name: Hello msg
       run: echo "Hello from SRC"
+
+    - name: Show version
+      run: echo "Current version: ${{ DEPLOY_VERSION }}"
