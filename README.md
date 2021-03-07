@@ -5,4 +5,4 @@ My Flask App
 
 
 Status of last Deployment<br />
-<img src="https://github.com/rmn4000/gb-actions-1/workflows/Check-My-Python-App/badges.svg?branch=main"><br />
+<img src="https://github.com/rmn4000/gb-actions-1/workflows/Check-My-Python-App/badge.svg?branch=main"><br />
