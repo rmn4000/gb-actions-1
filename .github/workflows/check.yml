@@ -1,4 +1,4 @@
-name: Check My Python App
+name: Check-My-Python-App
 env:
   APPLICATION_NAME: "My Flask app"
   DEPLOY_VERSION: "ver-${{ github.sha }}"
