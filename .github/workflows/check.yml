@@ -19,3 +19,6 @@ jobs:
 
     - name: Show version
       run: echo "Current version ${{ env.DEPLOY_VERSION }}"
+
+    - name: LS
+      run: ls -lah
